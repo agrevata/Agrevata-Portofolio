@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Experienced professional offering high-quality digital and creative services. Discover my portfolio and work with me to turn your ideas into impactful results.">
+      <meta name="robots" content="index, follow">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS - Insert link for icons ===============-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
+
+      <!--=============== SWIPER CSS - Insert link for swiperjs ===============-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>AGREVATA UNDIP</title>
+   </head>
+   <body>
+      <!--==================== HEADER & NAV ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="/index.html" class="nav__logo">AGREVATA</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li>
+                     <a href="#tentangkita" class="nav__link">Tentang Kita</a>
+                  </li>
+
+                  <li>
+                     <a href="#projek" class="nav__link">Projek</a>
+                  </li>
+
+                  <li>
+                     <a href="#penghargaan" class="nav__link">Penghargaan</a>
+                  </li>
+
+                  <li>
+                     <a href="#hubungikami" class="nav__contact">Hubungi Kami </a>
+                  </li>
+               </ul>
+
+               <!-- Close -->
+               <button class="nav__close" id="nav-close" aria-label="Close menu">
+                  <i class="ri-close-large-line"></i>
+               </button>
+            </div>
+
+            <!-- Toggle -->
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+               <i class="ri-menu-line"></i>
+            </button>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!-- CUSTOM CURSOR -->
+
+         
+         <!--==================== HOME SECTION ====================-->
+         <section class="home section" id="home">
+   <div class="blob-small"></div>
+   <div class="blob-small"></div>
+   <!-- Aurora Waves -->
+<div class="aurora">
+  <div class="aurora-wave"></div>
+  <div class="aurora-wave"></div>
+  <div class="aurora-wave"></div>
+</div>
+
+<!-- Radial Rings -->
+<div class="radial-rings">
+  <div class="ring"></div>
+  <div class="ring"></div>
+  <div class="ring"></div>
+</div>
+
+<!-- Diagonal Lines -->
+<div class="diag-lines" id="diagLines"></div>
+
+<!-- Crosshairs -->
+<div class="crosshair" style="top:15%;left:12%;"><div class="crosshair-dot"></div></div>
+<div class="crosshair" style="top:70%;left:7%;"><div class="crosshair-dot"></div></div>
+<div class="crosshair" style="top:25%;right:8%;"><div class="crosshair-dot"></div></div>
+<div class="crosshair" style="bottom:20%;right:12%;"><div class="crosshair-dot"></div></div>
+
+<!-- Side Panels -->
+<div class="side-panel left">
+  <span class="sp-label">TRKI</span>
+  <div class="sp-bar" style="width:40px;animation-delay:0s;"></div>
+  <div class="sp-bar" style="width:24px;animation-delay:0.4s;"></div>
+  <div class="sp-bar" style="width:32px;animation-delay:0.8s;"></div>
+  <div class="sp-bar" style="width:16px;animation-delay:1.2s;"></div>
+</div>
+<div class="side-panel right">
+  <span class="sp-label">UNDIP</span>
+  <div class="sp-bar" style="width:20px;animation-delay:0.2s;"></div>
+  <div class="sp-bar" style="width:36px;animation-delay:0.6s;"></div>
+  <div class="sp-bar" style="width:14px;animation-delay:1s;"></div>
+  <div class="sp-bar" style="width:30px;animation-delay:1.4s;"></div>
+</div>
+
+<!-- Dot Canvas -->
+<canvas class="noise-canvas" id="dotCanvas"></canvas>
+
+   <div class="home__container container">
+      <!-- Teks atas -->
+      <div class="home__data">
+         <h3 class="home__subtitle">Halo kami,</h3>
+         <h1 class="home__title">
+            AGREVATA<br>
+            <span>Universitas Diponegoro</span>
+         </h1>
+         <p class="home__description">Teknologi Rekayasa Kimia Industri</p>
+      </div>
+
+      <!-- Gambar + box + circle -->
+      <div class="home__images">
+         <div class="home__box1"></div>
+         <div class="home__box2"></div>
+         <div class="home__box3"></div>
+
+         <img src="assets/img/home-img.png" alt="Logo AGREVATA" class="home__img">
+
+         <div class="home__circle">
+            <svg viewBox="0 0 200 200" class="home__circle-svg">
+               <path id="circlePath"
+                  d="M 100,100 m -75,0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0"
+                  fill="none"/>
+               <text>
+                  <textPath href="#circlePath" startOffset="0%">
+                     JELAJAH • BERINOVASI • BERTUMBUH •&nbsp;
+                  </textPath>
+               </text>
+            </svg>
+
+            <a href="#tentangkita" class="home__arrow">
+               <i class="ri-arrow-down-line"></i>
+            </a>
+         </div>
+      </div>
+   </div>
+</section>
+
+         <!--==================== TENTANG KITA SECTION ====================-->
+         <section class="tentangkita section" id="tentangkita">
+   <!-- Hiasan -->
+<div class="bg-grid"></div>
+
+<div class="glow-orb glow-orb-1"></div>
+<div class="glow-orb glow-orb-2"></div>
+<div class="glow-orb glow-orb-3"></div>
+
+<div class="corner-deco tl"></div>
+<div class="corner-deco tr"></div>
+<div class="corner-deco bl"></div>
+<div class="corner-deco br"></div>
+
+<div class="scan-line"></div>
+
+<div class="section-label">TENTANG KITA</div>
+
+<!-- Hexagon dekoratif -->
+<svg class="hex-deco" style="top:15%;right:3%;width:120px;height:138px;" viewBox="0 0 120 138">
+    <polygon points="60,2 116,32 116,106 60,136 4,106 4,32" fill="none" stroke="#4ade80" stroke-width="1.5"/>
+    <polygon points="60,20 98,42 98,96 60,118 22,96 22,42" fill="none" stroke="#4ade80" stroke-width="0.8"/>
+</svg>
+<svg class="hex-deco" style="bottom:12%;left:2%;width:80px;height:92px;" viewBox="0 0 80 92">
+    <polygon points="40,2 76,22 76,70 40,90 4,70 4,22" fill="none" stroke="#4ade80" stroke-width="1"/>
+</svg>
+
+<!-- Container floating dots (diisi JS) -->
+<div id="floatingDotsContainer"></div>
+    <div class="carousel-container">
+        
+        <button class="nav-btn prev-btn" id="prevBtn">
+            <i class="ri-arrow-left-line"></i>
+        </button>
+
+        <div class="slider-wrapper">
+            <div class="slides-container" id="slidesContainer">
+                
+                <div class="slide active">
+                    <h2 class="slide-title">Agrevata</h2>
+                    <div class="image-frame">
+                        <img src="assets/img/agrevata-img.png" alt="Agrevata">
+                    </div>
+                    <p class="slide-desc">
+                        AGREVATA merupakan tim yang dibentuk oleh mahasiswa TRKI SV UNDIP angkatan 2024. Nama Agrevata sendiri diambil dari perpaduan kata “Agra” dalam bahasa Sanskerta yang berarti puncak atau tertinggi, serta “Vata” yang bermakna angin atau elemen yang bergerak bebas. Nama ini merepresentasikan filosofi tim yang berorientasi pada pencapaian tertinggi dengan cara kerja yang lincah, adaptif, dan terus bergerak maju seperti angin yang tidak dapat dihentikan. Melalui semangat kolaborasi yang dinamis, AGREVATA mencerminkan tekad untuk terus berkembang, berinovasi, dan meraih prestasi terbaik di setiap langkah perjalanan tim.
+                    </p>
+                </div>
+
+                <div class="slide">
+                    <h2 class="slide-title">Bayu Surya Kusuma</h2>
+                    <div class="image-frame">
+                        <img src="assets/img/bayu-img.png" alt="Bayu Surya Kusuma">
+                    </div>
+                    <p class="slide-desc">
+                      Saya adalah mahasiswa Teknologi Rekayasa Kimia Industri Sekolah Vokasi Universitas Diponegoro angkatan 2024 yang berasal dari Tegal, Jawa Tengah. Saya memiliki ketertarikan besar pada bidang Teknik Kimia, editing, serta pengembangan teknologi. Saya aktif mengembangkan kemampuan diri melalui berbagai kegiatan pembelajaran dan mengikuti lomba esai maupun karya tulis ilmiah untuk melatih kemampuan berpikir kritis, kreativitas, dan penyusunan ide secara sistematis. Saya dikenal sebagai pribadi yang disiplin, mudah beradaptasi, dan memiliki semangat belajar yang tinggi. Dengan kemampuan dan minat yang saya miliki, saya berkomitmen untuk terus berkembang serta memberikan kontribusi positif melalui ide-ide inovatif dan kreatif.
+                    </p>
+                </div>
+
+                <div class="slide">
+                    <h2 class="slide-title">Firyal Sufiyah Naifah</h2>
+                    <div class="image-frame">
+                        <img src="assets/img/firyal-img.png" alt="Firyal Sufiyah Naifah">
+                    </div>
+                    <p class="slide-desc">
+                        Saya aadalah mahasiswi Teknologi Rekayasa Kimia Industri Sekolah Vokasi Universitas Diponegoro angkatan 2024 yang berasal dari Tegal, Jawa Tengah. Saya memiliki ketertarikan besar pada bidang inovasi, lingkungan, dan pengembangan diri. Saya aktif mengikuti berbagai kegiatan organisasi, kepanitiaan, serta kompetisi karya tulis ilmiah dan business plan untuk mengembangkan kemampuan komunikasi, kepemimpinan, dan problem solving. Saya dikenal sebagai pribadi yang disiplin, percaya diri, mudah beradaptasi, serta senang mencoba hal-hal baru. Dengan semangat belajar yang tinggi, saya berkomitmen untuk terus berkembang dan memberikan kontribusi positif melalui ide-ide kreatif dan inovatif.
+                    </p>
+                </div>
+
+                <div class="slide">
+                    <h2 class="slide-title">Zuriel Nicholas Ferdinan Tampubolon</h2>
+                    <div class="image-frame">
+                        <img src="assets/img/zuriel-img.png" alt="Zuriel Nicholas Ferdinan Tampubolon">
+                    </div>
+                    <p class="slide-desc">
+                        Saya adalah mahasiswa Teknologi Rekayasa Kimia Industri Sekolah Vokasi Universitas Diponegoro angkatan 2024 yang berasal dari Pontianak, Kalimantan Barat.Saya memiliki minat besar pada tantangan, kompetisi, dan dunia wirausaha. Memiliki jiwa kompetitif yang kuat yang diimplementasikan melalui keaktifan dalam dunia olahraga dan berbagai perlombaan sebagai sarana untuk terus berkembang. Selain itu, memiliki ketertarikan praktis dalam strategi negosiasi dan transaksi bisnis melalui pengelolaan jual-beli di forum online. Dikenal sebagai pribadi yang adaptif, penuh rasa ingin tahu, dan berorientasi pada peluang, saya siap memanfaatkan semangat belajar ini untuk menciptakan inovasi yang kreatif.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <button class="nav-btn next-btn" id="nextBtn">
+            <i class="ri-arrow-right-line"></i>
+        </button>
+
+    </div>
+
+    <div class="dots-container" id="dotsContainer">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+        <span class="dot" data-index="3"></span>
+    </div>  
+</section>
+
+<!--==================== PROJEK SECTION ====================-->
+         <section class="projek section" id="projek">
+            <!-- Hiasan background -->
+  <div class="proj-bg-grid"></div>
+  <div class="proj-glow proj-glow-1"></div>
+  <div class="proj-glow proj-glow-2"></div>
+  <div class="proj-corner tl"></div>
+  <div class="proj-corner tr"></div>
+  <div class="proj-corner bl"></div>
+  <div class="proj-corner br"></div>
+  <div class="proj-dashed-ring"></div>
+  <div class="proj-ring proj-ring-1"></div>
+  <div class="proj-ring proj-ring-2"></div>
+  <div id="projStripes"></div>
+
+  <div class="proj-label">Projek</div>
+
+  <!-- List projek -->
+ <div class="projek-grid">
+
+  <div class="projek-card">
+    <div class="projek-img-box">
+      <img src="assets/img/projek 1-img.png" alt="Projek 1">
+      <div class="projek-badge">01</div>
+    </div>
+    <div class="projek-body">
+      <span class="projek-tag">Biomaterial</span>
+      <div class="projek-title">AgreShield</div>
+      <div class="projek-desc">Edible film ramah lingkungan yang dirancang khusus untuk memperpanjang umur simpan buah tropis. Memanfaatkan limbah pelepah salak yang kaya lignoselulosa , kami mengintegrasikan teknologi Microwave-Assisted Extraction (MAE) dan proses enzimatisasi untuk mengisolasi lignin nanokristal. Hasilnya adalah lapisan pelindung buah yang aman, sepenuhnya terdegradasi alami, dan efektif menunda pembusukan akibat jamur pascapanen.</div>
+      <div class="projek-footer">
+        <span class="projek-year">13 Feb 2026 — 13 Mar 2026 </span>
+        <a href="projek-1.html" class="projek-arrow">→</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="projek-card">
+    <div class="projek-img-box">
+      <img src="assets/img/projek 2-img.png" alt="Projek 2">
+      <div class="projek-badge">02</div>
+    </div>
+    <div class="projek-body">
+      <span class="projek-tag">Coming Soon</span>
+      <div class="projek-title">Coming Soon</div>
+      <div class="projek-desc">-</div>
+      <div class="projek-footer">
+        <span class="projek-year"> Mei 2026 - Now</span>
+        <div class="projek-arrow">→</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+        </section>
+
+        <!--==================== PENGHARGAAN SECTION ====================-->
+        <section class="penghargaan section" id="penghargaan">
+            <!-- Hiasan background -->
+  <div class="peng-bg-grid"></div>
+  <div class="peng-glow peng-glow-1"></div>
+  <div class="peng-glow peng-glow-2"></div>
+  <div class="peng-corner tl"></div>
+  <div class="peng-corner tr"></div>
+  <div class="peng-corner bl"></div>
+  <div class="peng-corner br"></div>
+
+  <svg class="peng-hex" style="top:10%;right:2%;width:140px;height:161px;" viewBox="0 0 140 161">
+    <polygon points="70,3 135,37 135,124 70,158 5,124 5,37" fill="none" stroke="#4ade80" stroke-width="1.5"/>
+    <polygon points="70,22 116,49 116,112 70,139 24,112 24,49" fill="none" stroke="#4ade80" stroke-width="0.7"/>
+  </svg>
+  <svg class="peng-hex" style="bottom:8%;left:1%;width:90px;height:104px;" viewBox="0 0 90 104">
+    <polygon points="45,2 86,25 86,79 45,102 4,79 4,25" fill="none" stroke="#a78bfa" stroke-width="1"/>
+  </svg>
+
+  <div class="peng-label">Penghargaan</div>
+
+<!-- Counter stats -->
+<div class="peng-header">
+
+  <div class="peng-stat">
+    <span class="peng-stat-num">1</span>
+    <span class="peng-stat-label">Nasional</span>
+  </div>
+
+  <div class="peng-divider"></div>
+
+  <div class="peng-stat">
+    <span class="peng-stat-num">0</span>
+    <span class="peng-stat-label">Internasional</span>
+  </div>
+
+</div>
+
+  <!-- List penghargaan — tambah/kurang item sesuai kebutuhan -->
+  <div class="peng-list">
+
+    <div class="peng-item">
+      <span class="peng-num">01</span>
+      <div class="peng-medal medal-other">🏅</div>
+      <div class="peng-content">
+        <div class="peng-name">Harapan 1 LKTIN IYSA 2026</div>
+        <div class="peng-meta">
+          <span class="peng-penyelenggara">Diselenggarakan oleh
+            <a href="https://www.lktin.or.id/" target="_blank">IYSA</a>
+          </span>
+          <div class="peng-dot"></div>
+          <span class="peng-penyelenggara">Tingkat Nasional</span>
+        </div>
+      </div>
+      <div class="peng-right">
+        <span class="peng-year">2026</span>
+        <span class="peng-badge badge-gold">Harapan 1</span>
+      </div>
+    </div>
+    </div>
+        </section>
+
+        <!--==================== CONTACT SECTION ====================-->
+        <section class="hubungi section" id="hubungikami">
+
+  <!-- Hiasan background -->
+  <div class="hub-bg-grid"></div>
+  <div class="hub-glow hub-glow-1"></div>
+  <div class="hub-glow hub-glow-2"></div>
+  <div class="hub-corner tl"></div>
+  <div class="hub-corner tr"></div>
+  <div class="hub-corner bl"></div>
+  <div class="hub-corner br"></div>
+  <div class="hub-scan-line"></div>
+  <div class="hub-label">Kontak</div>
+
+  <h2 class="hub-title">Hubungi <span>Kami</span></h2>
+
+  <div class="hub-wrapper">
+
+    <!-- Form kiri -->
+    <form class="hub-form" action="https://formspree.io/f/mlgvppaa" method="POST">
+      <div class="hub-row">
+        <input class="hub-input" type="text" name="nama" placeholder="Nama" required>
+        <input class="hub-input" type="text" name="instansi" placeholder="Instansi / Asal">
+      </div>
+      <input class="hub-input" type="email" name="email" placeholder="Email" required>
+      <input class="hub-input" type="text" name="subjek" placeholder="Subjek">
+      <textarea class="hub-textarea" name="pesan" placeholder="Pesan..." required></textarea>
+      <button class="hub-btn" type="submit">
+        Kirim Pesan <span class="hub-btn-arrow">→</span>
+      </button>
+    </form>
+
+    <!-- Info kontak kanan -->
+<div class="hub-info">
+
+  <a class="hub-info-card" href="https://mail.google.com/mail/?view=cm&to=agrevata@gmail.com&su=Kritik%20,%20Saran%20dan Masukan&body=Nama%20:%20%0AInstansi%20:%20%0APesan%20:%20" target="_blank">
+  <div class="hub-info-icon"><i class="ri-mail-line"></i></div>
+  <div class="hub-info-text">
+    <div class="hub-info-label">Email</div>
+    <div class="hub-info-value">agrevata@gmail.com</div>
+  </div>
+  <div class="hub-info-arrow">↗</div>
+</a>
+
+      <a class="hub-info-card" href="https://wa.me/6289512847329" target="_blank">
+        <div class="hub-info-icon"><i class="ri-whatsapp-line"></i></div>
+        <div class="hub-info-text">
+          <div class="hub-info-label">WhatsApp</div>
+          <div class="hub-info-value">+6289512847329</div>
+        </div>
+        <div class="hub-info-arrow">↗</div>
+      </a>
+
+      <a class="hub-info-card" href="https://www.instagram.com/agrevata?igsh=MWZoNmZjcWh4dmR2Zw==" target="_blank">
+        <div class="hub-info-icon"><i class="ri-instagram-line"></i></div>
+        <div class="hub-info-text">
+          <div class="hub-info-label">Instagram</div>
+          <div class="hub-info-value">@agrevata</div>
+        </div>
+        <div class="hub-info-arrow">↗</div>
+      </a>
+
+    </div>
+  </div>
+</section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+<footer class="footer">
+  <div class="foot-grid"></div>
+  <div class="foot-glow foot-glow-1"></div>
+  <div class="foot-glow foot-glow-2"></div>
+  <div class="foot-line"></div>
+
+  <div class="foot-main">
+
+    <!-- Brand -->
+    <div class="foot-brand">
+      <div class="foot-logo">AGRE<span>VATA</span></div>
+      <p class="foot-tagline"> Jelajah, Berinovasi, Bertumbuh.</p>
+      <div class="foot-sosmed">
+        <a class="foot-sosmed-btn" href="https://www.instagram.com/agrevata?igsh=MWZoNmZjcWh4dmR2Zw==" target="_blank"><i class="ri-instagram-line"></i></a>
+        <a class="foot-sosmed-btn" href="https://wa.me/6289512847329" target="_blank"><i class="ri-whatsapp-line"></i></a>
+        <a class="foot-sosmed-btn" href="https://mail.google.com/mail/?view=cm&to=agrevata@gmail.com" target="_blank"><i class="ri-mail-line"></i></a>
+      </div>
+    </div>
+
+    <!-- Navigasi -->
+    <div>
+      <div class="foot-col-title">Navigasi</div>
+      <ul class="foot-nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tentangkita">Tentang Kita</a></li>
+        <li><a href="#projek">Projek</a></li>
+        <li><a href="#penghargaan">Penghargaan</a></li>
+        <li><a href="#hubungikami">Hubungi Kami</a></li>
+      </ul>
+    </div>
+
+    <!-- Kontak -->
+    <div>
+      <div class="foot-col-title">Kontak</div>
+      <ul class="foot-nav-list">
+        <li><a href="https://mail.google.com/mail/?view=cm&to=agrevata@gmail.com" target="_blank">agrevata@gmail.com</a></li>
+        <li><a href="https://wa.me/6289512847329" target="_blank">+62 895-1284-7329</a></li>
+        <li><a href="https://www.instagram.com/agrevata?igsh=MWZoNmZjcWh4dmR2Zw==" target="_blank">@agrevata</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="foot-divider"></div>
+
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 <span>AGREVATA</span> — Universitas Diponegoro. All rights reserved.</div>
+    <div class="foot-badge">
+      <div class="foot-badge-dot"></div>
+      Teknologi Rekayasa Kimia Industri
+    </div>
+  </div>
+</footer>
+
+      <!--========== SCROLL UP ==========-->
+      
+
+      <!--=============== SCROLLREVEAL - Insert link for animations ===============-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+      
+      <!--=============== TYPED JS - Insert link for text animations ===============-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+      
+      <!--=============== SWIPER JS - Insert link for swiperjs ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+      <!--=============== EMAIL JS - Insert link to send emails ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <script>
+
+      <!--=============== ANIMASI SCROLL ===============-->
+const observer = new IntersectionObserver((entries)=>{
+  
+  entries.forEach((entry)=>{
+
+    if(entry.isIntersecting){
+
+      entry.target.classList.add('show');
+
+      const animated =
+        entry.target.querySelectorAll(
+          '.fade-up, .fade-left, .fade-right, .zoom-in'
+        );
+
+      animated.forEach((el)=>{
+        el.classList.add('show');
+      });
+
+    }else{
+
+      entry.target.classList.remove('show');
+
+      const animated =
+        entry.target.querySelectorAll(
+          '.fade-up, .fade-left, .fade-right, .zoom-in'
+        );
+
+      animated.forEach((el)=>{
+        el.classList.remove('show');
+      });
+
+    }
+
+  });
+
+},{
+  threshold:0.18
+});
+
+document.querySelectorAll('.section').forEach((sec)=>{
+  observer.observe(sec);
+});
+
+</script>
+   </body>
+</html>
